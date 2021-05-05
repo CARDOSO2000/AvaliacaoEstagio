@@ -1,0 +1,12 @@
+2.1
+SELECT au_fname , au_lname FROM authors WHERE city = 'New York';
+2.2
+SELECT  publishers.pub_id, 
+	publishers.pub_name,
+	(
+	    SELECT COUNT(titles.title)
+	    FROM titles
+            WHERE titles.pub_id = publishers.pub_id
+	    AND HAVING COUNT(titles.title) > 5
+	)as titles_count
+FROM publishers;
