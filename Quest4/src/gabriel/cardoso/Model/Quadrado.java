@@ -1,4 +1,4 @@
-package Model;
+package gabriel.cardoso.Model;
 
 public class Quadrado extends Figura{
     public double lado;

@@ -1,4 +1,4 @@
-package Model;
+package gabriel.cardoso.Model;
 
 public class Triangulo extends Figura {
     public double base;

@@ -1,4 +1,4 @@
-package Model;
+package gabriel.cardoso.Model;
 
 public class Circunferencia extends Figura{
     public double raio;

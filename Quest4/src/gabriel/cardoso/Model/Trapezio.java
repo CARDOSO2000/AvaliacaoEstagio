@@ -1,4 +1,4 @@
-package Model;
+package gabriel.cardoso.Model;
 
 public class Trapezio extends Figura{
     public double base_maior;

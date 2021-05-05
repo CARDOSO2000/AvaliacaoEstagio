@@ -1,6 +1,6 @@
 package gabriel.cardoso;
 
-import Model.*;
+import gabriel.cardoso.Model.*;
 
 public class Main {
 

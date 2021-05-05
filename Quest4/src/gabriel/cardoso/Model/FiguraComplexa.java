@@ -1,4 +1,4 @@
-package Model;
+package gabriel.cardoso.Model;
 
 import java.util.ArrayList;
 
